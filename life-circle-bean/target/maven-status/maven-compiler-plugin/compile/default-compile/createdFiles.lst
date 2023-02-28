@@ -1,0 +1,6 @@
+com/demo/CustomBeanPostProcessor.class
+com/demo/Main.class
+com/demo/AppConfig.class
+com/demo/beans/SpringBean2.class
+com/demo/beans/SpringBean1.class
+com/demo/CustomBeanFactoryPostProcessor.class
