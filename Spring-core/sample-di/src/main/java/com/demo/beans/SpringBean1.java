@@ -5,13 +5,15 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Component
-public class SpringBean1 implements Ordered {
+@Order(1)
+public class SpringBean1 implements MyInterface {
     public SpringBean1(){
-        System.out.println("Spring Bean 1");
+
+//        System.out.println("Spring Bean 1");
     }
 
-    @Override
-    public int getOrder() {
-        return 3;
+
+    public String toString(){
+        return "Spring Bean 1";
     }
 }
